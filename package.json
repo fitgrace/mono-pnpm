@@ -1,0 +1,16 @@
+{
+  "name": "mono-kit",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "chalk": "^5.0.1",
+    "yorkie-pnpm": "^2.0.1"
+  },
+  "gitHooks": {
+    "commit-msg": "node scripts/verify-commit.js"
+  }
+}
