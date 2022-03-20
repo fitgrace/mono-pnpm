@@ -3,7 +3,8 @@ import chalk from 'chalk'
 
 // 通过 GIT_PARAMS 读取到保存 git commit 时输入的描述信息的文件目录，一般路径是：.git/COMMIT_EDITMSG
 const msgPath = process.env.GIT_PARAMS
-console.log('process.env.GIT_PARAMS =', process.env.GIT_PARAMS)
+let errInfo = 'this is error'
+console.log('process.env.GIT_PARAMS =', process.env.GIT_PARAMS, errInfo)
 
 // 读取 .git/COMMIT_EDITMSG 文件信息
 const msg = fs.readFileSync(msgPath, 'utf-8').trim()
