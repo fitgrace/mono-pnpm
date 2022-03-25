@@ -1,0 +1,13 @@
+/node_modules/**
+/public/*
+/dist/*
+
+packages/*/CHANGELOG.md
+pnpm-workspace.yaml
+pnpm-lock.yaml
+
+.output.js
+.local
+
+**/*.svg
+**/*.sh

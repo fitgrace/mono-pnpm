@@ -3,6 +3,7 @@ const { defineConfig } = require('eslint-define-config');
 module.exports = defineConfig({
   extends: [
     'alloy',
+    'alloy/typescript',
   ],
   env: {
     // 你的环境变量（包含多个预定义的全局变量）
